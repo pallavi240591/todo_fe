@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Todo App</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="js/index.js"></script>
+</head>
+<body>
+<div class="center top">
+    <div>
+        <h1>To-Do
+            <small>List</small>
+        </h1>
+        <div class="flex">
+            <form role="form">
+                <input type="text" placeholder="Your Task" name="task" id="todo-input" class="todo-input">
+            </form>
+            <button type="button" class="button" onclick="onAddTodo()">Add</button>
+        </div>
+    </div>
+</div>
+<div class="center">
+
+    <table id="todo-table">
+    </table>
+</div>
+
+</body>
+</html>

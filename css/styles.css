@@ -1,0 +1,127 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #313131;
+    background: #EED5C2;
+}
+
+
+h1 {
+    color: #C46BAE;
+
+    /*EB7BC0*/
+    /*EDA4BD*/
+    /*7C606B*/
+}
+
+table {
+    border: 5px solid #7C606B;
+    border-collapse: collapse;
+    width: 50%
+}
+
+th, td {
+    padding: 5px;
+}
+
+th {
+    text-align: left;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.top {
+
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+
+.todo-input {
+    width: 15rem;
+    background-color: #e2cab8;
+    color: #313131;
+    box-shadow: none;
+    display: block;
+    margin: 0;
+    padding: 1rem;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 0.4rem;
+}
+
+.todo-input:focus {
+    outline: none;
+}
+
+.button {
+    background-color: #EDA4BD;
+    color: #313131;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+    transition: all 0.5s cubic-bezier(0.65, -0.25, 0.25, 1.95);
+    font-weight: 900;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.button:hover, .button:focus, .button:active {
+    letter-spacing: 0.125rem;
+}
+
+.complete-button {
+    background-color: #889aed;
+    font-size: 0.75rem;
+    padding: 0.1rem 0.5rem;
+}
+
+.incomplete-button {
+    background-color: #d7d7d7;
+    font-size: 0.75rem;
+    padding: 0.1rem 0.5rem;
+}
+
+.delete-button {
+    background-color: #ed6f75;
+    font-size: 0.75rem;
+    padding: 0.1rem 0.5rem;
+}
+
+.spread {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details {
+    display: flex;
+    font-size: 0.75rem;
+    color: #585858;
+}
+
+.username {
+    margin-left: 1rem;
+}
+
+.wraptext {
+    word-wrap:break-word;
+    overflow-wrap: break-word;
+}
+
+.maxit {
+    max-width: 500px;
+}
